@@ -218,4 +218,39 @@ a {
 #testimonials {
   padding: 6rem 0;
 }
+#testimonials .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 6rem;
+  gap: 3rem;
+}
+
+#testimonials .row .testimonials-item {
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 25px 25px 35px;
+  transition: all 0.3s ease;
+}
+#testimonials .row .testimonials-item:hover {
+  box-shadow: 5px 5px 5px var(--dark-gray);
+}
+#testimonials .row .testimonials-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: -70px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+#testimonials .row .testimonials-item img:hover {
+  scale: 1.2;
+}
+#testimonials .row .testimonials-item h3 {
+  margin: 20px 0 10px;
+}
+#testimonials .row .testimonials-item p {
+  line-height: 1.6;
+}
 /* Testimonials End */
