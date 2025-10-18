@@ -37,6 +37,17 @@ a {
 .Text-primary {
   color: var(--light-brown);
 }
+.heading {
+  text-align: center;
+}
+.heading span {
+  font-size: 20px;
+}
+.heading h2 {
+  font-size: 40;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 /* Header Start */
 #header {
   background-color: #fff;
@@ -147,3 +158,56 @@ a {
   line-height: 1.5;
 }
 /* About End */
+/* Menu Start */
+#menu {
+  background-color: var(--bg-secondary);
+  padding: 6rem 0;
+}
+#menu .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2rem;
+  gap: 5rem;
+  align-items: center;
+}
+#menu .row .col .menu-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  border: 1px solid #ddd;
+  padding: 25px 20px;
+  transition: all 0.3s ease;
+}
+#menu .row .col .menu-item:hover {
+  box-shadow: var(--light-brown) 5px 5px 5px;
+}
+#menu .row .col .menu-item img {
+  width: 80px;
+  margin-left: -50px;
+}
+#menu .row .col .menu-item .details {
+  margin-left: 20px;
+}
+#menu .row .col .menu-item .details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#menu .row .col .menu-item .details p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+#menu .row .col .menu-item .price {
+  border-left: 1px solid #ddd;
+  padding: 20px;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+#menu .row .col .menu-item .price:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+#menu .row .col .menu-item .price p {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Menu End */
