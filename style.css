@@ -44,7 +44,7 @@ a {
   font-size: 20px;
 }
 .heading h2 {
-  font-size: 40;
+  font-size: 40px;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -177,6 +177,8 @@ a {
   border: 1px solid #ddd;
   padding: 25px 20px;
   transition: all 0.3s ease;
+  min-height: 160px;
+  max-height: 160px;
 }
 #menu .row .col .menu-item:hover {
   box-shadow: var(--light-brown) 5px 5px 5px;
@@ -211,3 +213,9 @@ a {
   font-weight: 600;
 }
 /* Menu End */
+
+/* Testimonials Start */
+#testimonials {
+  padding: 6rem 0;
+}
+/* Testimonials End */
