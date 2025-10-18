@@ -260,14 +260,13 @@ a {
   background-color: var(--bg-color);
 }
 #contact .row {
- display: grid;
- grid-template-columns: 2fr 1.4fr; 
- margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1.4fr;
+  margin-top: 2rem;
 }
 #contact .row .contact-content {
   background-color: #fff;
   padding: 2.5rem;
-
 }
 #contact .row .contact-content h3 {
   font-size: 26px;
@@ -278,11 +277,11 @@ a {
 #contact .row .contact-content form textarea {
   display: block;
   width: 100%;
-margin: 15px 0;
-padding: 15px;
-border: 1px solid var(--dark-gray);
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid var(--dark-gray);
 }
-#contact .row .contact-content form .btn-submit{
+#contact .row .contact-content form .btn-submit {
   background-color: var(--black);
   color: #fff;
   padding: 20px;
@@ -292,12 +291,59 @@ border: 1px solid var(--dark-gray);
   border: none;
   transition: all 0.3s ease;
 }
-#contact .row .contact-content form .btn-submit:hover{
-    background-color: var(--light-brown);
+#contact .row .contact-content form .btn-submit:hover {
+  background-color: var(--light-brown);
   box-shadow: var(--black) 5px 5px 5px;
 }
-#contact .map iframe{
+#contact .map iframe {
   height: 100%;
   width: 100%;
 }
 /* Contact End */
+/* footer Start */
+#footer {
+  background: url(./imgs/footer-bg.png) center center/cover no-repeat;
+  color: #fff;
+}
+#footer .footer-top {
+  padding: 6rem 0;
+}
+#footer .footer-top .row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+#footer .footer-top .row .col h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+#footer .footer-top .row .col p {
+  width: 400px;
+  line-height: 1.6;
+}
+#footer .footer-top .row .col ul li {
+  margin: 10px 0;
+}
+#footer .footer-top .row .col ul li i {
+  margin-right: 10px;
+}
+#footer .footer-top .row .col ul li a {
+  color: #fff;
+}
+#footer .copyright {
+  background-color: var(--dark-gray);
+  padding: 2rem 0;
+  text-align: center;
+}
+#footer .copyright p {
+  font-weight: 500;
+}
+#footer .copyright p a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+#footer .copyright p a:hover {
+  color: var(--light-brown);
+}
+/* footer End */
