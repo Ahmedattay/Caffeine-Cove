@@ -254,3 +254,50 @@ a {
   line-height: 1.6;
 }
 /* Testimonials End */
+/* Contact Start */
+#contact {
+  padding: 6rem 0;
+  background-color: var(--bg-color);
+}
+#contact .row {
+ display: grid;
+ grid-template-columns: 2fr 1.4fr; 
+ margin-top: 2rem;
+}
+#contact .row .contact-content {
+  background-color: #fff;
+  padding: 2.5rem;
+
+}
+#contact .row .contact-content h3 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#contact .row .contact-content form input,
+#contact .row .contact-content form textarea {
+  display: block;
+  width: 100%;
+margin: 15px 0;
+padding: 15px;
+border: 1px solid var(--dark-gray);
+}
+#contact .row .contact-content form .btn-submit{
+  background-color: var(--black);
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+#contact .row .contact-content form .btn-submit:hover{
+    background-color: var(--light-brown);
+  box-shadow: var(--black) 5px 5px 5px;
+}
+#contact .map iframe{
+  height: 100%;
+  width: 100%;
+}
+/* Contact End */
